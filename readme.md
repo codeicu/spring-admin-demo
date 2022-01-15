@@ -6,14 +6,15 @@
 
 关键代码如下:
 ```
-	protected InetAddress getLocalHost() {
-		try {
-			return InetAddress.getLocalHost();
-		}
-		catch (UnknownHostException ex) {
-			throw new IllegalArgumentException(ex.getMessage(), ex);
-		}
-	}
+
+    protected InetAddress getLocalHost() {
+        try {
+            return InetAddress.getLocalHost();
+        }
+        catch (UnknownHostException ex) {
+            throw new IllegalArgumentException(ex.getMessage(), ex);
+        }
+    }
 	
     protected String getHost(InetAddress address) {
         return this.instance.isPreferIp() ? address.getHostAddress() : address.getCanonicalHostName();
