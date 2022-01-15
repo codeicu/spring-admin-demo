@@ -4,8 +4,11 @@ spring:
   boot:
     admin:
       client:
-        url: http://localhost:8080
+        url: http://localhost:80801
 
+#logging:
+#  # 设置logback.xml位置
+#  config: classpath:logback.xml
 
 management:
   endpoints:

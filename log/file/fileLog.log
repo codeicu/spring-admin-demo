@@ -1,0 +1,7 @@
+2022-01-15 10:36:29,268 INFO (StartupInfoLogger.java:55)- Starting App using Java 1.8.0_73 on zink-AMD with PID 17588 (C:\Users\Administrator\IdeaProjects\spring-admin-demo\build\classes\java\main started by Administrator in C:\Users\Administrator\IdeaProjects\spring-admin-demo)
+2022-01-15 10:36:29,272 INFO (SpringApplication.java:659)- No active profile set, falling back to default profiles: default
+2022-01-15 10:36:31,034 WARN (ThymeleafAutoConfiguration.java:105)- Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2022-01-15 10:36:31,392 INFO (EndpointLinksResolver.java:58)- Exposing 13 endpoint(s) beneath base path '/actuator'
+2022-01-15 10:36:33,705 INFO (NettyWebServer.java:111)- Netty started on port 8080
+2022-01-15 10:36:33,720 INFO (StartupInfoLogger.java:61)- Started App in 5.105 seconds (JVM running for 5.875)
+2022-01-15 10:36:33,810 WARN (DefaultApplicationRegistrator.java:91)- Failed to register application as Application(name=admin-client, managementUrl=http://192.168.159.1:8080/actuator, healthUrl=http://192.168.159.1:8080/actuator/health, serviceUrl=http://192.168.159.1:8080/) at spring-boot-admin ([http://localhost:80801/instances]): port out of range:80801; nested exception is java.lang.IllegalArgumentException: port out of range:80801. Further attempts are logged on DEBUG level
