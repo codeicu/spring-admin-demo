@@ -1,12 +1,11 @@
 # 测试spring-admin
 
-## 问题1. client url是如何确定的?
+## 问题1. admin server的url是如何确定的?
 
 由de.codecentric.boot.admin.client.registration.DefaultApplicationFactory决定IP地址,
 
 关键代码如下:
 ```
-
     protected InetAddress getLocalHost() {
         try {
             return InetAddress.getLocalHost();
